@@ -3,28 +3,24 @@
                     <div class="row">
                         <div class="col-md-3 text-center">
                             <p>
-                                imalisiddique@gmail.com<br />
-                                01670230718
+                                imalisiddique@gmail.com
                             </p>
                         </div>
                         <div class="col-md-3 text-center">
                             <p>
-                                imalisiddique@gmail.com<br />
-                                01670230718
+                                @imalisiddique
                             </p>
                         </div>
                         <div class="col-md-3 text-center">
                             <p>
-                                imalisiddique@gmail.com<br />
-                                01670230718
+                                01316100161
                             </p>
                         </div>
                         <div class="col-md-3 text-center">
                             <ul class="social-links">
-                                <li><a href="#" class="fa fa-vimeo"></a></li>
-                                <li><a href="#" class="fa fa-instagram"></a></li>
-                                <li><a href="#" class="fa fa-twitter"></a></li>
-                                <li><a href="#" class="fa fa-behance"></a></li>
+                                <li><a target="_blank" href="https://github.com/imalisiddique/" class="fa fa-github"></a></li>
+                                <li><a target="_blank" href="#" class="fa fa-linkedin"></a></li>
+                                <li><a target="_blank" href="#" class="fa fa-twitter"></a></li>
                             </ul>
                         </div>
                     </div>
