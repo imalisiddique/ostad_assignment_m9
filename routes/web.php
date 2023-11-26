@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get( '/', [HomeController::class, "index"] )->name( "home" );
-Route::get( '/about', [HomeController::class, "about"] )->name( "about" );
-Route::get( '/work', [HomeController::class, "work"] )->name( "work" );
-Route::get( '/contact', [HomeController::class, "contact"] )->name( "contact" );
+Route::get( '/', [PageController::class, "index"] )->name( "home" );
+Route::get( '/about', [PageController::class, "about"] )->name( "about" );
+Route::get( '/work', [PageController::class, "work"] )->name( "work" );
+Route::get( '/contact', [PageController::class, "contact"] )->name( "contact" );

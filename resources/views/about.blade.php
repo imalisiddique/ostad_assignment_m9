@@ -1,12 +1,7 @@
 @extends('layouts.app')
 
-@section('sitetitle')
-About | Ali Siddique
-@endsection
-
-@section('description')
-Description of About | Ali Siddique
-@endsection
+@section('sitetitle', 'About | Ali Siddique')
+@section('description', 'Description of About | Ali Siddique')
 
 @section('content')
 
