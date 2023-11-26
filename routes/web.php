@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -11,8 +12,9 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
 |
-*/
+ */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get( '/', [HomeController::class, "index"] )->name( "home" );
+Route::get( '/about', [HomeController::class, "about"] )->name( "about" );
+Route::get( '/work', [HomeController::class, "work"] )->name( "work" );
+Route::get( '/contact', [HomeController::class, "contact"] )->name( "contact" );
